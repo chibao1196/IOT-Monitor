@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="543dp"
+        android:background="@drawable/back"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Temperature"
+        android:textColor="	#191970"
+        android:textSize="30dp" />
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph1"
+        android:layout_width="match_parent"
+        android:layout_height="248dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="299dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="237dp"
+        android:background="@drawable/back"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Light"
+        android:textColor="#191970"
+        android:textSize="30dp" />
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph2"
+        android:layout_width="match_parent"
+        android:layout_height="237dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="3dp"
+        android:gravity="center" />
+
+</RelativeLayout>
